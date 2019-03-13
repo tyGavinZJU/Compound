@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Balance from "./Balance";
+import Balance from "./balance";
 import { Card, Row, Col } from "antd";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";

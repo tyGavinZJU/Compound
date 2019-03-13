@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Info from "./components/Info";
+import Info from "./components/info";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Market from "./components/Market";
 import Faq from "./components/Faq";
-import Asset from "./components/Asset";
+import Asset from "./components/asset";
 import "./App.css";
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/Market" component={Market} />
             <Route path="/Faq" component={Faq} />
-            <Route path="/Asset/:asset_id" component={Asset} />
+            <Route path="/asset/:asset_id" component={Asset} />
           </Switch>
         </React.Fragment>
       </BrowserRouter>
